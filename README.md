@@ -10,3 +10,7 @@
 
 clone or downloadタブからzip形式でダウンロードし、適当なところへ解凍してください。
 
+### 3. DEMLoaderを走らせる  
+
+- Rhinocerosを起動し、コマンドラインへ"RunPythonScript"を書いてください。  
+- Explorer/Finderが表示され先程のDEMLoader.pyを選択してください。
