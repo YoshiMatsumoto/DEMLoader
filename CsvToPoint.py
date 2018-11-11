@@ -13,7 +13,7 @@ def Pt2Crv(ln):
             z = float(items[2])
             pt = [x, z, y]
             pts.append(pt)
-    crv = rs.AddInterpCurve(pts, len(pts))
+    crv = rs.AddPolyline(pts)
     return crv
 
 def ReadPointsDef():
